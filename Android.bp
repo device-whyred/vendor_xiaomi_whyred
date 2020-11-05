@@ -50,7 +50,7 @@ android_app_import {
 android_app_import {
 	name: "MotoDolbyV3",
 	owner: "motorola",
-	apk: "proprietary/app/MotoDolbyV3/MotoDolbyV3.apk",
+	apk: "sdm660-common/proprietary/app/MotoDolbyV3/MotoDolbyV3.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -60,7 +60,7 @@ android_app_import {
 android_app_import {
 	name: "daxService",
 	owner: "motorola",
-	apk: "proprietary/product/priv-app/daxService/daxService.apk",
+	apk: "sdm660-common/proprietary/product/priv-app/daxService/daxService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
