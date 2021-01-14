@@ -49,7 +49,7 @@ android_app_import {
 
 android_app_import {
 	name: "MotoDolbyV3",
-	owner: "motorola",
+	owner: "xiaomi",
 	apk: "proprietary/app/MotoDolbyV3/MotoDolbyV3.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -59,7 +59,7 @@ android_app_import {
 
 android_app_import {
 	name: "daxService",
-	owner: "motorola",
+	owner: "xiaomi",
 	apk: "proprietary/product/priv-app/daxService/daxService.apk",
 	certificate: "platform",
 	dex_preopt: {
