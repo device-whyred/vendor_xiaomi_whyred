@@ -18,7 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/whyred
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/whyred/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/xiaomi/whyred/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
     vendor/xiaomi/whyred/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/xiaomi/whyred/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
@@ -1316,4 +1315,5 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     dpmserviceapp \
-    WfdCommon
+    WfdCommon \
+    chargeonlymode
